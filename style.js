@@ -7,13 +7,13 @@ const fetchDataPromise = () => {
             return response.json();
         })
         .then((result)=>{
-            //console.log(result);
-            const allnames=result.map((element)  =>{
-                return element.name;
-            } )
-            console.log(allnames);
+            console.log(result);
+        //     const allnames=result.map((element)  =>{
+        //         return element.name;
+        //     } )
+        //     console.log(allnames);
           
-        })
+        // })
     .catch((error) => { 
         console.log(error);
         
